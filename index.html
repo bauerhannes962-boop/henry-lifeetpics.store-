@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101010" />
+  <meta name="description" content="HenryHub – Premium-Fußfotografie mit absolut unverhältnismäßigem Produktionsaufwand. Entdecken, favorisieren und via Discord anfragen." />
+  <meta property="og:title" content="HenryHub – großes Kino, kleine Zehen" />
+  <meta property="og:description" content="Die Plattform, die niemand brauchte. Aber hier sind wir." />
+  <title>HenryHub – Großes Kino. Kleine Zehen.</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-flame" aria-hidden="true">✦</span> 100 % ORIGINAL CONTENT <span class="announcement-dot">•</span> 0 % WÜRDE <span class="announcement-dot">•</span> 200 % ZEHEN-ENERGIE <span class="announcement-flame" aria-hidden="true">✦</span></div>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a href="#top" class="logo" id="brandLogo" aria-label="HenryHub Startseite"><span class="logo-henry">henry</span><span class="logo-hub">hub</span><span class="logo-tm">™</span></a>
+      <div class="header-search-wrap">
+        <label class="search-field" for="siteSearch">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" id="siteSearch" placeholder="Suche nach dem perfekten Fußmoment ..." autocomplete="off" aria-label="Produkte suchen" />
+          <span class="search-key">/</span>
+        </label>
+      </div>
+      <nav class="header-actions" aria-label="Hauptnavigation">
+        <a class="header-link header-link-desktop" href="#galerie">Entdecken</a>
+        <a class="header-link header-link-desktop" href="#how">So geht's</a>
+        <button class="icon-button" id="favButton" type="button" aria-label="Nur Favoriten anzeigen" title="Favoriten"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.8 5.7a5 5 0 0 0-7.1 0L12 7.4l-1.7-1.7a5 5 0 0 0-7.1 7.1L12 21.6l8.8-8.8a5 5 0 0 0 0-7.1Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span class="icon-count" id="favCount" hidden>0</span></button>
+        <button class="cart-button" id="cartButton" type="button" aria-label="Merkliste öffnen"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4h2l2.1 11h11.6l2.1-8H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.3" fill="currentColor"/><circle cx="18" cy="20" r="1.3" fill="currentColor"/></svg><span class="cart-label">Merkliste</span><span class="cart-count" id="cartCount">0</span></button>
+        <button class="mobile-menu-button icon-button" id="mobileMenuButton" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Menü öffnen"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      </nav>
+    </div>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Mobile Navigation" hidden><a href="#galerie">Entdecken</a><a href="#how">So funktioniert's</a><a href="#faq">FAQ</a></nav>
+  </header>
+
+  <nav class="category-bar" aria-label="Kategorien">
+    <div class="shell category-list" id="topCategories">
+      <button class="category-tab active" data-category="all">✦ Für dich</button>
+      <button class="category-tab" data-category="classic">Klassiker</button>
+      <button class="category-tab" data-category="premium">Premium</button>
+      <button class="category-tab" data-category="socks">Socken-Content</button>
+      <button class="category-tab" data-category="closeup">Nahaufnahmen</button>
+      <button class="category-tab" data-category="mystery">Mystery</button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="shell">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> DIE FRAGWÜRDIGSTE PREMIERENPLATTFORM 2026</div>
+          <h1 id="heroTitle">Großes Kino.<br><em>Kleine Zehen.</em></h1>
+          <p>Manche sammeln Kunst. Andere Briefmarken. Wir haben leider diese Website gebaut.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#galerie"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m8 5 12 7-12 7V5Z"/></svg> Jetzt entdecken</a><button class="button button-outline" type="button" id="heroSurprise">Überrasch mich</button></div>
+          <div class="hero-stats"><span><strong>8</strong> Meisterwerke</span><span><strong>∞</strong> unnötiger Hype</span><span><strong>0</strong> Schamgefühl</span></div>
+        </div>
+        <div class="hero-art" aria-label="HenryHub Originalproduktion">
+          <div class="hero-badge"><span class="live-dot"></span> HENRY ORIGINAL</div>
+          <div class="hero-art-center"><span class="hero-mark">H<span>H</span></span><span class="hero-art-line">EXKLUSIV. VERSTÖREND. IKONISCH.</span></div>
+          <div class="hero-art-footer"><span>THE HENRY COLLECTION</span><strong>SEASON 01</strong></div>
+          <div class="hero-corner-text">NO SOCKS WERE HARMED</div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Plattform Highlights"><span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m4 12 5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Höchst offiziell unseriös</span><span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> 100 % handverlesene Füße</span><span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12 10 18 20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Bestellung ganz oldschool via Discord</span></section>
+
+      <section id="galerie" class="gallery-section" aria-labelledby="galleryTitle">
+        <div class="section-top"><div><div class="section-kicker">UNSER EXTREM EXKLUSIVER KATALOG</div><h2 id="galleryTitle"><span class="orange-pipe"></span> Die heißesten Uploads <span class="title-emoji">↗</span></h2><p class="section-caption">Acht digitale Meisterwerke. Zumindest behauptet Henry das.</p></div><div class="gallery-controls"><label class="sort-label" for="sortSelect">Sortieren:</label><select id="sortSelect" class="sort-select"><option value="popular">Beliebteste</option><option value="new">Neueste</option><option value="low">Preis: aufsteigend</option><option value="high">Preis: absteigend</option><option value="title">Name A–Z</option></select></div></div>
+        <div id="activeFilter" class="active-filter" hidden></div>
+        <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden><div class="empty-icon">404</div><h3>Diese Zehen wurden nicht gefunden.</h3><p>Der Algorithmus ist gerade barfuß unterwegs.</p><button class="button button-primary" id="resetFilters">Alle Produkte anzeigen</button></div>
+      </section>
+
+      <section class="feature-banner" aria-label="Premium-Werbung"><div class="banner-icon">★</div><div class="feature-banner-copy"><span>HENRYHUB PREMIUM</span><h2>Mehr Zehen. Weniger Fragen.</h2><p>Das ist keine Mitgliedschaft. Das ist ein Lebensgefühl, über das wir lieber nicht reden.</p></div><a class="button button-banner" href="#galerie" id="premiumAction">Premium entdecken <span aria-hidden="true">↗</span></a></section>
+
+      <section class="how-section" id="how" aria-labelledby="howTitle"><div class="section-kicker">GANZ OHNE KREDITKARTENAKROBATIK</div><h2 id="howTitle"><span class="orange-pipe"></span> So läuft der Deal</h2><div class="steps-grid"><article class="step"><div class="step-number">01</div><h3>Meisterwerk finden</h3><p>Durch die Galerie stöbern. Einen Favoriten auswählen. Kurz die eigenen Entscheidungen hinterfragen.</p></article><article class="step"><div class="step-number">02</div><h3>Auf die Merkliste</h3><p>Auf „Merken“ klicken und beliebig viele Bilder sammeln. Ganz ohne Registrierung.</p></article><article class="step"><div class="step-number">03</div><h3>Henry auf Discord</h3><p>Die Bestellanfrage kopieren und <strong>@antcn</strong> auf Discord anschreiben. Ja, wirklich so.</p></article></div></section>
+
+      <section class="quote-strip" aria-label="Kundenrezension"><div class="quote-stars">★★★★★</div><blockquote>„Ich dachte, das ist ein Scherz. Dann sah ich die Preise und wusste: Das IST ein Scherz.“</blockquote><span>— Ein vermutlich zufriedener Besucher</span></section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faqTitle"><div class="section-kicker">DIE GANZ GROSSEN FRAGEN</div><h2 id="faqTitle"><span class="orange-pipe"></span> Häufig gefragt</h2><div class="faq-items"><details><summary>Ist diese Website ernst gemeint? <span>+</span></summary><p>Mit ungefähr derselben Ernsthaftigkeit wie ein Oscar für die beste Socke. Bestellanfragen funktionieren aber tatsächlich.</p></details><details><summary>Wie kann ich ein Bild kaufen? <span>+</span></summary><p>Wähle ein oder mehrere Bilder aus, öffne die Merkliste und kopiere die Bestellanfrage. Füge <strong>antcn</strong> als Discord-Freund hinzu und schicke die Nachricht.</p></details><details><summary>Warum sieht das aus wie eine Videoplattform? <span>+</span></summary><p>Weil Henry der Meinung ist, seine Füße hätten Blockbuster-Potenzial. Die Galerie enthält Bilder, keine abspielbaren Videos.</p></details><details><summary>Wo sind die richtigen Bilder? <span>+</span></summary><p>Sobald die Bilddateien <code>fuss1.png</code> bis <code>fuss8.png</code> in <code>assets/images/</code> liegen, erscheinen sie automatisch anstelle der Vorschaubilder.</p></details></div></section>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-main"><div><a href="#top" class="logo footer-logo"><span class="logo-henry">henry</span><span class="logo-hub">hub</span><span class="logo-tm">™</span></a><p>Die Domain, die das Internet nicht verdient hat.</p><span class="footer-domain">henry-lifeetpics.store</span></div><div class="footer-links"><a href="#galerie">Galerie</a><a href="#how">So geht's</a><a href="#faq">FAQ</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div><div class="shell footer-bottom"><span>© <span id="footerYear">2026</span> HenryHub. Alle Zehen vorbehalten.</span><span>Made with questionable decisions <span class="footer-foot">✳</span></span></div></footer>
+
+  <div id="toastStack" class="toast-stack" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="modal-backdrop" id="productModal" hidden><section class="dialog product-dialog" role="dialog" aria-modal="true" aria-labelledby="modalProductTitle" tabindex="-1"><button class="dialog-close" type="button" data-close="productModal" aria-label="Schließen">×</button><div id="productModalBody"></div></section></div>
+  <div class="modal-backdrop" id="cartModal" hidden><section class="dialog cart-dialog" role="dialog" aria-modal="true" aria-labelledby="cartTitle" tabindex="-1"><div class="dialog-header"><div><span class="dialog-kicker">DEIN PERSÖNLICHER SAMMELORDNER</span><h2 id="cartTitle">Merkliste <span id="cartTitleCount">(0)</span></h2></div><button class="dialog-close static" type="button" data-close="cartModal" aria-label="Schließen">×</button></div><div id="cartModalBody"></div></section></div>
+  <div class="modal-backdrop" id="orderModal" hidden><section class="dialog order-dialog" role="dialog" aria-modal="true" aria-labelledby="orderTitle" tabindex="-1"><div class="dialog-header"><div><span class="dialog-kicker">LETZTER SCHRITT, VERSPROCHEN</span><h2 id="orderTitle">Bestellanfrage senden</h2></div><button class="dialog-close static" type="button" data-close="orderModal" aria-label="Schließen">×</button></div><div class="order-steps"><p><strong>1.</strong> Nachricht kopieren</p><p><strong>2.</strong> Auf Discord <strong>@antcn</strong> hinzufügen</p><p><strong>3.</strong> Nachricht einfügen und abschicken</p></div><label class="order-message-label" for="orderMessage">Deine vorgefertigte Nachricht:</label><textarea id="orderMessage" rows="7" readonly></textarea><div class="order-actions"><button type="button" id="copyOrder" class="button button-primary">Nachricht kopieren</button><a class="button button-outline" href="https://discord.com/app" target="_blank" rel="noopener noreferrer">Discord öffnen ↗</a></div><p class="order-note">Hinweis: Dies ist keine automatische Bestellung oder Zahlung. Alles Weitere klärst du mit Henry auf Discord.</p></section></div>
+  <div class="modal-backdrop" id="introModal" hidden><section class="dialog intro-dialog" role="dialog" aria-modal="true" aria-labelledby="introTitle" tabindex="-1"><div class="intro-tiny">HENRYHUB SECURITY DIVISION • EST. 2026</div><div class="intro-symbol">H<span>H</span></div><h2 id="introTitle">Bist du bereit für<br><em>Premium-Zehencontent?</em></h2><p>Einmal gesehen, nie wieder vergessen. Leider.</p><div class="intro-actions"><button id="introYes" type="button" class="button button-primary">JA, ICH BIN BEREIT</button><button id="introNo" type="button" class="button button-outline">Nein, ich hab Angst</button></div><span class="intro-fineprint">Keine echte Alterskontrolle. Nur ein absolut unnötiger dramatischer Auftritt.</span></section></div>
+  <audio id="secretAudio" preload="none" src="assets/audio/henry-secret.mp3"></audio>
+</body>
+</html>
