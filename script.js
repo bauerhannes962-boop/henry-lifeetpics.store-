@@ -116,7 +116,7 @@ document.addEventListener('click',e=>{
 });
 el('copyOrder').addEventListener('click',async()=>{const ok=await copyText(el('orderMessage').value);toast(ok?'Kopiert! Jetzt Discord öffnen und @antcn anschreiben.':'Bitte Nachricht markieren und mit Strg+C kopieren.');if(ok){el('copyOrder').textContent='✓ Nachricht kopiert!';setTimeout(()=>el('copyOrder').textContent='Nachricht kopieren',3000)}});
 let logoClicks=0,logoTimer;
-el('brandLogo').addEventListener('click',e=>{logoClicks++;clearTimeout(logoTimer);logoTimer=setTimeout(()=>logoClicks=0,1800);if(logoClicks>=5){logoClicks=0;e.preventDefault();const audio=el('secretAudio');audio.currentTime=0;audio.play().then(()=>toast('GEHEIMES AUDIO FREIGESCHALTET. Henry approves.')).catch(()=>toast('Audio konnte nicht gestartet werden.'))}});
+el('brandLogo').addEventListener('click',e=>{logoClicks++;clearTimeout(logoTimer);logoTimer=setTimeout(()=>logoClicks=0,1800);if(logoClicks>=5){logoClicks=0;e.preventDefault();const audio=el('secretAudio');audio.currentTime=0;audio.play().then(()=>toast('GEHEIMES AUDIO FREIGESCHALTET. Der Juden Skandal.')).catch(()=>toast('Audio konnte nicht gestartet werden.'))}});
 let konami=[];const KCODE=['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
 document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){closeAll();return}
